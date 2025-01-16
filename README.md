@@ -11,8 +11,8 @@ The data for this project is sourced from the Kaggle dataset
 ### 1. Data Exploration
 ### 2. Querying the Data 
 After the data is inserted, various SQL queries can be written to explore and analyze the data.
-**Practice Question**
-#1.Retrieve the names of all tracks that have more than 1 billion streams.#
+###**Practice Question**###
+1.Retrieve the names of all tracks that have more than 1 billion streams.
 2.List all albums along with their respective artists.
 3.Get the total number of comments for tracks where licensed = TRUE.
 4.Find all tracks that belong to the album type single.
