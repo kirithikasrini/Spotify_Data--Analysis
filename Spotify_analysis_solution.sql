@@ -104,3 +104,19 @@ group by 1)
 select album , highest_energy - lowest_energy as energy_diff 
 from cte
 	order by 2 desc;
+
+
+-- Query optimization
+
+explain analyze 
+select artist,
+	track,
+	views
+	from spotify
+	where artist = 'Gorillaz'
+	and 
+	most_played_on = 'Youtube'
+	order by stream desc limit 25;
+
+create index artist_index on spotify (artist);
+
